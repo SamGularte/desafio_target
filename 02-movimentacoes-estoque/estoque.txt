@@ -1,0 +1,41 @@
+{
+  "estoque": [
+    {
+      "codigoProduto": 101,
+      "descricaoProduto": "Caneta Azul",
+      "estoque": 150
+    },
+    {
+      "codigoProduto": 102,
+      "descricaoProduto": "Caderno Universitário",
+      "estoque": 75
+    },
+    {
+      "codigoProduto": 103,
+      "descricaoProduto": "Borracha Branca",
+      "estoque": 200
+    },
+    {
+      "codigoProduto": 104,
+      "descricaoProduto": "Lápis Preto HB",
+      "estoque": 320
+    },
+    {
+      "codigoProduto": 105,
+      "descricaoProduto": "Marcador de Texto Amarelo",
+      "estoque": 90
+    }
+  ],
+  "movimentacoes": [
+    { "codigoProduto": 101, "quantidade": 50, "descricao": "ENTRADA" },
+    { "codigoProduto": 101, "quantidade": 25, "descricao": "SAIDA" },
+    { "codigoProduto": 102, "quantidade": 10, "descricao": "SAIDA" },
+    { "codigoProduto": 102, "quantidade": 40, "descricao": "ENTRADA" },
+    { "codigoProduto": 103, "quantidade": 100, "descricao": "SAIDA" },
+    { "codigoProduto": 104, "quantidade": 80, "descricao": "ENTRADA" },
+    { "codigoProduto": 104, "quantidade": 120, "descricao": "SAIDA" },
+    { "codigoProduto": 105, "quantidade": 90, "descricao": "SAIDA" },
+    { "codigoProduto": 105, "quantidade": 60, "descricao": "ENTRADA" },
+    { "codigoProduto": 103, "quantidade": 25, "descricao": "ENTRADA" }
+  ]
+}
