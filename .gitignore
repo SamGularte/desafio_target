@@ -1,0 +1,40 @@
+# ---- Build .NET / C# ----
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+*.trx
+
+# ---- NuGet ----
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---- IDE / editor ----
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+.idea/
+*.sln.iml
+
+# ---- Arquivos temporários ----
+tempCodeRunnerFile.cs
+*.tmp
+*.log
+*.bak
+
+# ---- Sistema ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+relatorio-*.txt
